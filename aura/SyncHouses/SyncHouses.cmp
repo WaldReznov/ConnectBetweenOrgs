@@ -1,0 +1,6 @@
+<aura:component controller="SyncHousesController" implements="force:lightningQuickAction" access="global">
+
+	<lightning:button  label="Sync Houses" title="title" onclick="{!c.syncHousesFront}"/>
+	<lightning:button  label="Delete Houses" title="title" onclick="{!c.deleteHousesFront}"/>
+
+</aura:component>
